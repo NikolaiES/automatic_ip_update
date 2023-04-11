@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "automatic-ip-update"
+version = "0.1.0"
+description = ""
+authors = ["Nikolai Eugen Sandvik <nikolai+git@sandvik.me>"]
+readme = "README.md"
+packages = [{include = "automatic_ip_update"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+argparse = "^1.4.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
